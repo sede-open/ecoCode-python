@@ -11,10 +11,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
+### Deleted
+
+## [1.5.0] - 2024-10-04
+
+### Changed
+
 - refactoring docker system
 - [#29](https://github.com/green-code-initiative/ecoCode-python/issues/29) Add test to ensure all Rules are registered
+- [#24](https://github.com/green-code-initiative/ecoCode-python/issues/24) Set correct required language because the
+  plugin wasn't loaded anymore - retro-compatibility modifications (9.9.0 to 10.7 and not compatible before 9.9.0) AND
+  add support for > 10.5 Sonarqube version (up to 10.7.0)
+- update some maven plugin versions and library versions to be up-to-date
+- correction of SonarCloud issues
 
 ### Deleted
+
+- deletion of EC69 rule because of already deprecated (see RULES.md file)
 
 ## [1.4.4] - 2024-07-18
 
@@ -63,7 +76,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [#5](https://github.com/green-code-initiative/ecoCode-python/pull/5) Upgrade licence system and licence headers of
   Java files
 - [#6](https://github.com/green-code-initiative/ecoCode-python/pull/6) Adding EC35 rule : EC35 rule replaces EC34 with a
-  specific use case ("file not found" sepcific)
+  specific use case ("file not found" specific)
 - [#7](https://github.com/green-code-initiative/ecoCode-python/issues/7) Add build number to manifest
 - [#123](https://github.com/green-code-initiative/ecoCode/issues/123) Improve unit tests for EC7 rule
 - Update ecocode-rules-specifications to 1.4.6
@@ -86,7 +99,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Comparison list
 
-[unreleased](https://github.com/green-code-initiative/ecoCode-python/compare/1.4.4...HEAD)
+[unreleased](https://github.com/green-code-initiative/ecoCode-python/compare/1.5.0...HEAD)
+[1.5.0](https://github.com/green-code-initiative/ecoCode-python/compare/1.4.4...1.5.0)
 [1.4.4](https://github.com/green-code-initiative/ecoCode-python/compare/1.4.3...1.4.4)
 [1.4.3](https://github.com/green-code-initiative/ecoCode-python/compare/1.4.2...1.4.3)
 [1.4.2](https://github.com/green-code-initiative/ecoCode-python/compare/1.4.1...1.4.2)
